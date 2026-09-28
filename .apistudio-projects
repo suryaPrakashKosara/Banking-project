@@ -3,24 +3,29 @@ projects:
     id: tzabVedZ
     description: ''
     tags: []
-    lastUpdated: 1789453536549
+    lastUpdated: 1790016818068
   Loans-Service:
     id: Z0gCMGAm
     description: ''
     tags: []
-    lastUpdated: 1789451821235
+    lastUpdated: 1790579091248
   Risk-service:
     id: CqBjLddd
     description: ''
     tags: []
-    lastUpdated: 1789453661666
+    lastUpdated: 1790016759581
   payments-service:
     id: ZDTWHaww
     description: ''
     tags: []
-    lastUpdated: 1789456445059
+    lastUpdated: 1790016362198
   Cusotmer-service:
     id: kNl6S6BO
     description: ''
     tags: []
-    lastUpdated: 1789452291315
+    lastUpdated: 1790161152252
+  Finance-LL:
+    id: c9rclgDB
+    description: Creating this project to test LLM related finance use-case
+    tags: []
+    lastUpdated: 1790583944826
