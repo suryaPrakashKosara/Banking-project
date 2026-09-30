@@ -28,4 +28,9 @@ projects:
     id: c9rclgDB
     description: Creating this project to test LLM related finance use-case
     tags: []
-    lastUpdated: 1790583957343
+    lastUpdated: 1790668592440
+  Finance-OAuth-LLM:
+    id: M3jpaUoE
+    description: creating this project to test LLM along with oauth configuration
+    tags: []
+    lastUpdated: 1790747560364
