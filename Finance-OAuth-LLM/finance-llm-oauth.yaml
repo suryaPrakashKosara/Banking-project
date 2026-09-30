@@ -1,0 +1,34 @@
+kind: LLMProvider
+apiVersion: api.ibm.com/v1
+metadata:
+  name: finance-llm-oauth
+  namespace: Finance-OAuth-LLM
+  version: "1.0"
+  tags: []
+  labels:
+    gatewayTypes:
+      - nano
+  domain: ai-platform
+spec:
+  provider:
+    type: watsonx
+    operations:
+      - InvokeWatsonxModels
+      - InvokeWatsonxTextGen
+      - InvokeWatsonxTokenize
+    apiKeySecret: wx-secret
+    tlsClientProfile: tls-client-profile-default:1.0.0
+    inputMessage: request
+    cachePolicy:
+      cache:
+        expire:
+          static:
+            seconds: 60
+        scope:
+          narrowScope: {}
+        ignoreControlDirectives: true
+    projectId: bf4c859c-e78a-4433-901d-81f8c69dd570
+    region: us-south
+    opVersion: "2024-03-14"
+  product:
+    $ref: Finance-OAuth-LLM:product-finance-llm-oauth-1jyqy:1.0

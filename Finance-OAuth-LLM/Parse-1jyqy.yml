@@ -1,0 +1,14 @@
+kind: Parse
+apiVersion: api.ibm.com/v1
+metadata:
+  name: Parse-1jyqy
+  namespace: Finance-OAuth-LLM
+  version: '1.0'
+  tags: []
+  labels:
+    gatewayTypes:
+      - nano
+spec:
+  documentType:
+    json: {}
+  input: request

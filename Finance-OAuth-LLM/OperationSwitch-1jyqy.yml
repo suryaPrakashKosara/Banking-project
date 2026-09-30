@@ -1,0 +1,30 @@
+kind: OperationSwitch
+apiVersion: api.ibm.com/v1
+metadata:
+  name: OperationSwitch-1jyqy
+  namespace: Finance-OAuth-LLM
+  version: '1.0'
+  tags: []
+  labels:
+    gatewayTypes:
+      - nano
+spec:
+  cases:
+    - conditions:
+        - verbPath:
+            path: /deployment-models
+            verb: GET
+      execute:
+        - $ref: Finance-OAuth-LLM:InvokeWatsonxModels-1jyqy:1.0
+    - conditions:
+        - verbPath:
+            path: /text-generate
+            verb: POST
+      execute:
+        - $ref: Finance-OAuth-LLM:InvokeWatsonxTextGen-1jyqy:1.0
+    - conditions:
+        - verbPath:
+            path: /tokenize
+            verb: POST
+      execute:
+        - $ref: Finance-OAuth-LLM:InvokeWatsonxTokenize-1jyqy:1.0

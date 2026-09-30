@@ -1,0 +1,19 @@
+kind: Authenticate
+apiVersion: api.ibm.com/v1
+metadata:
+  name: Authenticate-1jyqy
+  namespace: Finance-OAuth-LLM
+  version: '1.0'
+  tags: []
+  labels:
+    gatewayTypes:
+      - nano
+spec:
+  namespace: client
+  operation:
+    oauth2:
+      providers: []
+      audClaim: []
+      introspectionCredential:
+        idHeader: ''
+        secretHeader: ''

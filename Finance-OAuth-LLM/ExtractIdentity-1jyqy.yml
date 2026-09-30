@@ -1,0 +1,16 @@
+kind: ExtractIdentity
+apiVersion: api.ibm.com/v1
+metadata:
+  name: ExtractIdentity-1jyqy
+  namespace: Finance-OAuth-LLM
+  version: '1.0'
+  tags: []
+  labels:
+    gatewayTypes:
+      - nano
+spec:
+  credentialType:
+    oauth2:
+      httpHeader:
+        name: Authorization
+  namespace: client

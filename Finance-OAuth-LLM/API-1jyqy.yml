@@ -1,0 +1,13 @@
+kind: API
+apiVersion: api.ibm.com/v1
+metadata:
+  name: api-finance-llm-oauth-1jyqy
+  namespace: Finance-OAuth-LLM
+  version: '1.0'
+  tags: []
+  domain: ai-platform
+spec:
+  api-spec:
+    $path: ./api-spec-1jyqy.yml
+  policy-sequence:
+    - $ref: Finance-OAuth-LLM:freeflowpolicysequence-finance-llm-oauth-1jyqy:1.0

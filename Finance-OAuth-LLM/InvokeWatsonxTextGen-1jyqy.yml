@@ -1,0 +1,18 @@
+kind: InvokeWatsonxTextGen
+apiVersion: api.ibm.com/v1
+metadata:
+  name: InvokeWatsonxTextGen-1jyqy
+  namespace: Finance-OAuth-LLM
+  version: '1.0'
+  tags: []
+  labels:
+    gatewayTypes:
+      - nano
+spec:
+  region: us-south
+  opVersion: placeholder-op-version
+  tlsClientProfile: tls-client-profile-default:1.0.0
+  projectId: bf4c859c-e78a-4433-901d-81f8c69dd570
+  inputMessage: request
+  outputMessage: response
+  cachePolicy: disabled

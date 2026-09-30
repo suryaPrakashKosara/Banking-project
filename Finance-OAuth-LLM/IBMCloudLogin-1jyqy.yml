@@ -1,0 +1,13 @@
+kind: IBMCloudLogin
+apiVersion: api.ibm.com/v1
+metadata:
+  name: IBMCloudLogin-1jyqy
+  namespace: Finance-OAuth-LLM
+  version: '1.0'
+  tags: []
+  labels:
+    gatewayTypes:
+      - nano
+spec:
+  apiKeySecret: wx-secret
+  tlsClientProfile: tls-client-profile-default:1.0.0
