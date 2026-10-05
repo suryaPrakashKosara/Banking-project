@@ -1,7 +1,7 @@
 kind: Authorize
 apiVersion: api.ibm.com/v1
 metadata:
-  name: Authorize-1jyqy
+  name: Authorize-j9o7l
   namespace: Finance-OAuth-LLM
   version: '1.0'
   tags: []
@@ -11,7 +11,7 @@ metadata:
 spec:
   operation:
     oauth2:
-      issClaim: ''
+      issClaim: sub
       requiredScopes:
         - provider: verify-joy
           scopes:

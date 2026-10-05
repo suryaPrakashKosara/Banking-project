@@ -1,7 +1,7 @@
 kind: Authenticate
 apiVersion: api.ibm.com/v1
 metadata:
-  name: Authenticate-1jyqy
+  name: Authenticate-9IV1y
   namespace: Finance-OAuth-LLM
   version: '1.0'
   tags: []
@@ -9,11 +9,8 @@ metadata:
     gatewayTypes:
       - nano
 spec:
-  namespace: client
   operation:
     oauth2:
-      providers: []
+      providers:
+        - verify-joy
       audClaim: []
-      introspectionCredential:
-        idHeader: ''
-        secretHeader: ''

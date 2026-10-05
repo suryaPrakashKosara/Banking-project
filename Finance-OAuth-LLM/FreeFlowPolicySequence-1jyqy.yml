@@ -5,15 +5,12 @@ metadata:
   namespace: Finance-OAuth-LLM
   version: '1.0'
   tags: []
-  domain: ai-platform
   labels:
     gatewayTypes:
       - nano
+  domain: ai-platform
 spec:
   main:
-    - $ref: Finance-OAuth-LLM:ExtractIdentity-1jyqy:1.0
-    - $ref: Finance-OAuth-LLM:Authenticate-1jyqy:1.0
-    - $ref: Finance-OAuth-LLM:Authorize-1jyqy:1.0
     - $ref: Finance-OAuth-LLM:IBMCloudLogin-1jyqy:1.0
     - $ref: Finance-OAuth-LLM:Parse-1jyqy:1.0
     - $ref: Finance-OAuth-LLM:OperationSwitch-1jyqy:1.0

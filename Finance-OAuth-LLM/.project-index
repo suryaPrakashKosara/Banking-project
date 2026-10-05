@@ -118,27 +118,27 @@
       "filePath": "Finance-OAuth-LLM/FreeFlowPolicySequence-1jyqy.yml",
       "docIndex": 0,
       "assetType": "resource",
-      "lastIndexed": 1790747975585,
+      "lastIndexed": 1791175065996,
       "schemaVersion": 1,
       "kind": "FreeFlowPolicySequence",
       "name": "freeflowpolicysequence-finance-llm-oauth-1jyqy",
       "namespace": "Finance-OAuth-LLM",
       "version": "1.0",
-      "contentHash": "0aa1569c4c8e447a"
+      "contentHash": "2d7c2337b9ce564e"
     },
     {
-      "id": "6860a7cf-8822-468f-aa22-d4d5998223f3:0",
+      "id": "717b5251-0732-45a6-8439-5881c499ac08:0",
       "projectId": "M3jpaUoE",
-      "filePath": "Finance-OAuth-LLM/Authenticate-1jyqy.yml",
+      "filePath": "Finance-OAuth-LLM/Authorize-j9o7l.yml",
       "docIndex": 0,
       "assetType": "resource",
-      "lastIndexed": 1790754077574,
+      "lastIndexed": 1790763987185,
       "schemaVersion": 1,
-      "kind": "Authenticate",
-      "name": "Authenticate-1jyqy",
+      "kind": "Authorize",
+      "name": "Authorize-j9o7l",
       "namespace": "Finance-OAuth-LLM",
       "version": "1.0",
-      "contentHash": "4f86e3a25d37f8e7"
+      "contentHash": "47ce0b6e2a7e52ad"
     },
     {
       "id": "759415c8-fa9e-4cc3-a70b-303a89387d6a:0",
@@ -178,6 +178,20 @@
       "contentHash": "0d8ffa688817eb40"
     },
     {
+      "id": "8bdb2cf1-50ce-4f85-b4b2-609e69ea5ca6:0",
+      "projectId": "M3jpaUoE",
+      "filePath": "Finance-OAuth-LLM/Authenticate-9IV1y.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1790763625249,
+      "schemaVersion": 1,
+      "kind": "Authenticate",
+      "name": "Authenticate-9IV1y",
+      "namespace": "Finance-OAuth-LLM",
+      "version": "1.0",
+      "contentHash": "e58ab50c9fd60bb7"
+    },
+    {
       "id": "9f7cd401-ada3-418d-b579-05f0bdec5041:0",
       "projectId": "M3jpaUoE",
       "filePath": "Finance-OAuth-LLM/Quota-1jyqy-1.yml",
@@ -190,20 +204,6 @@
       "namespace": "Finance-OAuth-LLM",
       "version": "1.0",
       "contentHash": "cb73721c74dc0fc7"
-    },
-    {
-      "id": "a44bc90d-7956-4c3e-bc5c-254891c0ff41:0",
-      "projectId": "M3jpaUoE",
-      "filePath": "Finance-OAuth-LLM/Authorize-1jyqy.yml",
-      "docIndex": 0,
-      "assetType": "resource",
-      "lastIndexed": 1790748656462,
-      "schemaVersion": 1,
-      "kind": "Authorize",
-      "name": "Authorize-1jyqy",
-      "namespace": "Finance-OAuth-LLM",
-      "version": "1.0",
-      "contentHash": "9c703043ee4201fc"
     },
     {
       "id": "cb50a7ca-b70d-43c0-a063-aaa1d1a76da9:0",
@@ -286,18 +286,6 @@
       "isValid": true,
       "createdAt": 1790747972988,
       "lastValidated": 1790747972988
-    },
-    {
-      "id": "211a54c2-ae73-4463-9923-88b33cb46d35",
-      "projectId": "M3jpaUoE",
-      "sourceNodeId": "670a2f54-296c-4a50-90b2-afa21c5dceac:0",
-      "targetNodeId": "6860a7cf-8822-468f-aa22-d4d5998223f3:0",
-      "targetRefType": "same-project",
-      "targetRefString": "Finance-OAuth-LLM:Authenticate-1jyqy:1.0",
-      "targetRefKind": "resource",
-      "isValid": true,
-      "createdAt": 1790747975587,
-      "lastValidated": 1790754077587
     },
     {
       "id": "35349af9-26cb-4ec1-a39d-b6ddabd50d3f",
@@ -396,18 +384,6 @@
       "lastValidated": 1790748780079
     },
     {
-      "id": "ae3a7641-9764-44cc-a710-a4777f8c4430",
-      "projectId": "M3jpaUoE",
-      "sourceNodeId": "670a2f54-296c-4a50-90b2-afa21c5dceac:0",
-      "targetNodeId": "dd8dc95f-66a6-4a0a-a1b6-1d954a7b0381:0",
-      "targetRefType": "same-project",
-      "targetRefString": "Finance-OAuth-LLM:ExtractIdentity-1jyqy:1.0",
-      "targetRefKind": "resource",
-      "isValid": true,
-      "createdAt": 1790747975587,
-      "lastValidated": 1790748592020
-    },
-    {
       "id": "c778686e-46bb-4f7d-aac0-1fded6d450f9",
       "projectId": "M3jpaUoE",
       "sourceNodeId": "33852244-bc0d-4484-bc78-0d6c07a11548:0",
@@ -441,19 +417,7 @@
       "targetRefKind": "resource",
       "isValid": true,
       "createdAt": 1790747979047,
-      "lastValidated": 1790747979047
-    },
-    {
-      "id": "ef5c3dd5-f607-45a3-8f2b-5298dc4b0360",
-      "projectId": "M3jpaUoE",
-      "sourceNodeId": "670a2f54-296c-4a50-90b2-afa21c5dceac:0",
-      "targetNodeId": "a44bc90d-7956-4c3e-bc5c-254891c0ff41:0",
-      "targetRefType": "same-project",
-      "targetRefString": "Finance-OAuth-LLM:Authorize-1jyqy:1.0",
-      "targetRefKind": "resource",
-      "isValid": true,
-      "createdAt": 1790747975587,
-      "lastValidated": 1790748656475
+      "lastValidated": 1791175066047
     },
     {
       "id": "fb5fd3a3-df5a-4ad4-b6c3-f5b69c343223",
