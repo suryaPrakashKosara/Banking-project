@@ -1,0 +1,21 @@
+kind: FreeFlowPolicySequence
+apiVersion: api.ibm.com/v1
+metadata:
+  name: freeflowpolicysequence-watsonx-loan-llm-b1qhj
+  namespace: Loans-Service
+  version: '1.0'
+  tags: []
+  labels:
+    gatewayTypes:
+      - nano
+  domain: ai-platform
+spec:
+  main:
+    - $ref: Loans-Service:ExtractIdentity-KmRlP:1.0
+    - $ref: Loans-Service:Authenticate-GrM8J:1.0
+    - $ref: Loans-Service:Authorize-Rfz4X:1.0
+    - $ref: Loans-Service:IBMCloudLogin-b1qhj:1.0
+    - $ref: Loans-Service:Parse-b1qhj:1.0
+    - $ref: Loans-Service:OperationSwitch-b1qhj:1.0
+  monitoring:
+    $ref: Loans-Service:Telemetry-b1qhj:1.0

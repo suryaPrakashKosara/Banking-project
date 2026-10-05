@@ -12,7 +12,7 @@ spec:
   endpoint:
     http:
       target:
-        tlsClientProfile: sample-tls-client-profile:1.0.0
+        tlsClientProfile: tls-client-profile-default:1.0.0
         url: >-
           'https://loan-service.2cdce5chee35.au-syd.codeengine.appdomain.cloud'
           & $pathAndQuery()

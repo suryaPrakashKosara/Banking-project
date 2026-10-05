@@ -1,0 +1,18 @@
+kind: InvokeWatsonxTextGen
+apiVersion: api.ibm.com/v1
+metadata:
+  name: InvokeWatsonxTextGen-b1qhj
+  namespace: Loans-Service
+  version: '1.0'
+  tags: []
+  labels:
+    gatewayTypes:
+      - nano
+spec:
+  region: us-south
+  opVersion: placeholder-op-version
+  tlsClientProfile: tls-client-profile-default:1.0.0
+  projectId: 0d02f029-6460-4660-bf6d-7a39c89ed0ab
+  inputMessage: request
+  outputMessage: response
+  cachePolicy: disabled

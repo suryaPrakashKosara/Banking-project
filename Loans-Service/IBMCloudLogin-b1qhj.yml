@@ -1,0 +1,13 @@
+kind: IBMCloudLogin
+apiVersion: api.ibm.com/v1
+metadata:
+  name: IBMCloudLogin-b1qhj
+  namespace: Loans-Service
+  version: '1.0'
+  tags: []
+  labels:
+    gatewayTypes:
+      - nano
+spec:
+  apiKeySecret: wx-secret
+  tlsClientProfile: tls-client-profile-default:1.0.0

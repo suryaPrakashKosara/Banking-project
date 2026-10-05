@@ -1,0 +1,14 @@
+kind: Product
+apiVersion: api.ibm.com/v1
+metadata:
+  name: product-watsonx-loan-llm-b1qhj
+  namespace: Loans-Service
+  version: '1.0'
+  tags: []
+  domain: ai-platform
+  description: ''
+spec:
+  apis:
+    - $ref: Loans-Service:api-watsonx-loan-llm-b1qhj:1.0
+  plans:
+    - $ref: Loans-Service:plan-watsonx-loan-llm-b1qhj:1.0
